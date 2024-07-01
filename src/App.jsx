@@ -15,7 +15,7 @@ function App() {
       <section className="fluid parent-section pt-5">
       <div className="container pt-5">
         <div className="row d-flex justify-content-center text-center">
-          <div className="col-md-6 col-12">
+          <div className="col-md-8 col-12">
       <h1 className="pt-5 pb-3 ">Star wars</h1>
       <Navbar setPage={setPage} />
       <div>{page === "planets" ? <Planets /> : <Peoples />}</div>

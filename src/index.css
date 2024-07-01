@@ -11,12 +11,25 @@
   border: none;
 }
 .parent-section h1{
-  font-size: 55px;
+  font-size: 53px;
 }
 .planet-btn{
   background-color: plum;
   border: none;
+  padding: 11px 45px;
+  font-size: 18px;
 }
 .parent-div h5{
   color: rgb(228, 69, 228);
+}
+@media (max-width: 578px) {
+  .planet-btn{
+    background-color: plum;
+    border: none;
+    padding: 8px 35px;
+    font-size: 18px;
+  }
+  .parent-section h1{
+    font-size: 40px;
+  }
 }
